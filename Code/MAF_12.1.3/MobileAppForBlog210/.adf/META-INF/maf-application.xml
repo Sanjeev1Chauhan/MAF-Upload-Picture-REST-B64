@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfmf:application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adfmf="http://xmlns.oracle.com/adf/mf"
+                   version="1.0" name="MobileAppForBlog210" id="com.company.MobileAppForBlog210"
+                   appControllerFolder="ApplicationController"
+                   listener-class="com.san.mobile.photo.application.LifeCycleListenerImpl">
+  <adfmf:featureReference refId="com.san.mobile.photo.Photo" id="fr1"/>
+</adfmf:application>

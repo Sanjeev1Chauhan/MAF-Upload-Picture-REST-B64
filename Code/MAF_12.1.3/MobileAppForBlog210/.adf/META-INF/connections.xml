@@ -1,0 +1,13 @@
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+  <Reference name="REST-Konnect" className="oracle.adf.model.connection.rest.RestConnection" xmlns="">
+    <Factory className="oracle.adf.model.connection.rest.RestConnectionFactory"/>
+    <RefAddresses>
+      <XmlRefAddr addrType="REST-Konnect">
+        <Contents>
+          <restconnection name="REST-Konnect"
+                          url="http://172.16.1.167:7001/RESTServices-ViewController-context-root/rest"/>
+        </Contents>
+      </XmlRefAddr>
+    </RefAddresses>
+  </Reference>
+</References>
